@@ -25,20 +25,43 @@
 		width: 950px;
 	}
 
+	.cloud:nth-child(1) {
+		animation-duration: 45s;
+	}
+
+	.cloud:nth-child(2) {
+		animation-duration: 75s;
+	}
+
+	.cloud:nth-child(3) {
+		animation-duration: 55s;
+	}
+
+	.cloud:nth-child(4) {
+		animation-duration: 105s;
+	}
+
+	.sun {
+		animation-duration: 55s;
+	}
+
 	.tree {
 		margin-left: 80px;
 	}
 
 	.car {
 		top: -30px;
+		animation-duration: 15s;
 	}
 
 	.car-2 {
 		top: -30px;
+		animation-duration: 15s;
 	}
 
 	.bus {
 		top: -35px;
+		animation-duration: 20s;
 	}
 
 	.flower {
@@ -78,6 +101,16 @@
 	.flower_litler {
 		margin-left: 80px;
 	}
+
+	@keyframes drive {
+		from{
+			transform: translateX(-230px);
+		}
+		to{
+			transform: translateX(1000px);
+		}
+	}
+
 }
 
 @media(max-width: 800px) {
@@ -108,6 +141,16 @@
 	.flower_litler {
 		margin-left: 60px;
 	}
+
+	@keyframes drive {
+		from{
+			transform: translateX(-230px);
+		}
+		to{
+			transform: translateX(900px);
+		}
+	}
+
 }
 
 @media(max-width: 650px) {
@@ -141,6 +184,15 @@
 
 	.flower_litler {
 		margin-left: 40px;
+	}
+
+	@keyframes drive {
+		from{
+			transform: translateX(-230px);
+		}
+		to{
+			transform: translateX(800px);
+		}
 	}
 }
 

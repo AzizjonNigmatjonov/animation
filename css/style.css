@@ -150,7 +150,7 @@ hr {
 
 @keyframes drive {
 	from{
-		transform: translateX(-210px);
+		transform: translateX(-230px);
 	}
 	to{
 		transform: translateX(1400px);
