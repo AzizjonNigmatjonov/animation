@@ -176,6 +176,16 @@
 		animation-duration: 20s;
 		animation-iteration-count: infinite;
 	}
+
+	.car-2 {
+		animation-duration: 20s;
+		animation-iteration-count: infinite;
+	}
+
+	.bus {
+		animation-duration: 25s;
+		animation-iteration-count: infinite;
+	}
 }
 
 @media(max-width: 550px) {
